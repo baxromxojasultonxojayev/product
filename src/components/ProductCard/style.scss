@@ -1,0 +1,14 @@
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    cursor: pointer;
+    vertical-align: bottom;
+    &:hover {
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 15px 0px rgba(163, 163, 163, 0.75);
+      transition: 1s
+    }
+  }
