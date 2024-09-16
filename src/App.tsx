@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./views/HomePage";
 import PrivateCabine from "./views/PrivateCabine";
 import Products from "./views/Products";
-import OwnProducts from "./views/OwnProducts";
 
 function App() {
   return (

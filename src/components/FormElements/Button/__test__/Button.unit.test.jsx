@@ -15,7 +15,7 @@ describe("Button Component", () => {
     rerender(<Button mode="save" />);
     expect(container).toMatchSnapshot();
     expect(
-      screen.getByRole("button", { name: /Saqlash/i })
+      screen.getByRole("button", { name: /Save/i })
     ).toBeInTheDocument();
   });
 
@@ -26,7 +26,7 @@ describe("Button Component", () => {
     expect(container).toMatchSnapshot();
 
     expect(
-      screen.getByRole("button", { name: /Bekor qilish/i })
+      screen.getByRole("button", { name: /Cancel/i })
     ).toBeInTheDocument();
   });
 
@@ -37,7 +37,7 @@ describe("Button Component", () => {
     expect(container).toMatchSnapshot();
 
     expect(
-      screen.getByRole("button", { name: /O'zgartirish/i })
+      screen.getByRole("button", { name: /edit/i })
     ).toBeInTheDocument();
   });
 });

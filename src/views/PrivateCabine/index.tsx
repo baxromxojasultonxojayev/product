@@ -17,7 +17,6 @@ interface FormData {
 
 const PrivateCabine = () => {
   const navigate = useNavigate();
-  const loginData = localStorage.getItem("login");
   const [userLogin, setUSerLogin] = useState({
     email: "",
     password: "",

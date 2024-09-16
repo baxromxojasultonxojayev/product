@@ -9,7 +9,7 @@ exports[`Button Component clicking cancel button 1`] = `
       class="cancel"
       type="text"
     >
-      Bekor qilish
+      Cancel
     </button>
   </div>
 </div>
@@ -24,7 +24,7 @@ exports[`Button Component clicking edit button 1`] = `
       class="edit"
       type="text"
     >
-      O'zgartirish
+      Edit
     </button>
   </div>
 </div>
@@ -39,7 +39,7 @@ exports[`Button Component clicking save button 1`] = `
       class="save"
       type="text"
     >
-      Saqlash
+      Save
     </button>
   </div>
 </div>
@@ -54,7 +54,7 @@ exports[`Button Component matches snapshot without props 1`] = `
       class="save"
       type="text"
     >
-      Saqlash
+      Save
     </button>
   </div>
 </div>

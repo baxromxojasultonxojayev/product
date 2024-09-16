@@ -1,10 +1,8 @@
 import { List, ListItem } from "@mui/material";
 import "./style.scss";
 import UserPhoto from "../UserPhoto";
-import { useEffect, useState } from "react";
 
 const MenuList = () => {
-  const [userLogin, setUserLogin] = useState<boolean | null>(null);
   const menus = [
     { page: "Home", link: "/" },
     { page: "Products", link: "/products" },
@@ -13,24 +11,6 @@ const MenuList = () => {
       link: "/private",
     },
   ];
-
-  // useEffect(() => {
-  //   const loginData = localStorage.getItem("loginData");
-  //   if (loginData) {
-  //     try {
-  //       const parsedData = JSON.parse(loginData);
-  //       if (parsedData?.login) {
-  //         setUserLogin(true);
-  //       } else {
-  //         setUserLogin(false);
-  //       }
-  //     } catch (error) {
-  //       setUserLogin(false);
-  //     }
-  //   } else {
-  //     setUserLogin(false);
-  //   }
-  // }, []);
 
   return (
     <div className="navbar">
